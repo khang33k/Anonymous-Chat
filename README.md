@@ -1,2 +1,2 @@
-# Anonymous-Chat
-Anonymous Chat Android Application
+# Data Sharing
+Data Sharing Android Application
