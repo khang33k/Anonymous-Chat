@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="calls">Calls</string>
+    <string name="messages">Messages</string>
+    <string name="files">Files</string>
+    <string name="about_us">About Us</string>
+    <string name="location">Location</string>
+    <string name="share">Share</string>
+    <string name="connect">Connect</string>
+    <string name="search">Search</string>
+    <string name="person">Person</string>
+    <string name="p1">P1</string>
+    <string name="p2">P2</string>
+    <string name="p3">P3</string>
+    <string name="p4">P4</string>
+    <string name="p5">P5</string>
+    <string name="back">Back</string>
+    <string name="message">Feature will Be Added Soon</string>
+</resources>

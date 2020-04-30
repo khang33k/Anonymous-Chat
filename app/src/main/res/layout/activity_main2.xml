@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="407dp"
+        android:layout_height="75dp"
+        android:background="#2196F3"
+        android:onClick="btm"
+        android:text="@string/back"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="206dp"
+        android:layout_height="130dp"
+        android:contentDescription="@string/messages"
+        android:onClick="showToast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_notify_chat" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="204dp"
+        android:layout_height="109dp"
+        android:contentDescription="@string/share"
+        android:onClick="showToast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+        app:srcCompat="@android:drawable/ic_menu_share" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="204dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/about_us"
+        android:onClick="showToast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="204dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/location"
+        android:onClick="showToast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="206dp"
+        android:layout_height="108dp"
+        android:contentDescription="@string/files"
+        android:onClick="showToast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+        app:srcCompat="@android:drawable/sym_contact_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="206dp"
+        android:layout_height="130dp"
+        android:contentDescription="@string/calls"
+        android:onClick="showToast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
